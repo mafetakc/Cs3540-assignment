@@ -1,0 +1,53 @@
+# Representative Applications and Workload Requirements for Low-Cost AI-Enabled Mobile
+
+This repository explores representative applications of **AI-enabled mobile devices** with a focus on **low-cost, resource-, and considerations for efficient deployment.
+
+---
+
+## 📱 Applications
+
+### 1. Voice Recognition & Natural Language Processing (NLP)
+- **Use cases**: Hands-free operation, voice assistants in local languages, accessibility.  
+- **Examples**: Siri, Google Assistant, WhatsApp voice commands.  
+- **Workload requirements**:
+  - Real-time audio signal processing  
+  - Efficient execution of RNNs and CNNs  
+  - Moderate memory footprint for language models  
+  - Low latency  
+  - Power-efficient computation (small batteries, constrained devices)  
+
+---
+
+### 2. Biometric Security (Facial Recognition & Fingerprint Authentication)
+- **Use cases**: Secure device unlocking, mobile payments, digital ID.  
+- **Examples**: Face unlock, fingerprint recognition.  
+- **Workload requirements**:
+  - Image pre-processing (feature extraction, edge detection)  
+  - Lightweight CNN inference  
+  - Moderate storage for biometric templates  
+  - High accuracy with minimal computational overhead  
+  - Real-time response  
+
+---
+
+### 3. Mobile Financial Services
+- **Use cases**: Fraud detection, mobile banking, offline transaction validation.  
+- **Workload requirements**:
+  - Lightweight anomaly detection models  
+  - Secure cryptographic operations  
+  - Small-scale ML inference  
+  - Minimal resource consumption to maintain affordability  
+
+---
+
+### 4. Health & Educational AI Applications
+- **Use cases**: AI-powered diagnostic tools, translation, agricultural advisory apps.  
+- **Workload requirements**:
+  - Efficient execution of classification models (e.g., symptom checkers)  
+  - Lightweight NLP translation models  
+  - Low memory and compute overhead for affordable hardware  
+
+---
+
+## 📂 Repository Structure
+
